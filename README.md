@@ -51,6 +51,8 @@ https://huggingface.co/datasets/cwestnedge/TriggerIR
 | substance\_abuse |      0.937 |      0.437 |  0.500 |       1.00 |       0.40 |   0.50 |
 | violence         |      0.661 |      0.500 |  0.161 |       0.70 |       0.50 |   0.20 |
 
+### Visual
+![Explicit-query visual](assets/explicit_query_viz.png)
 </details>
 
 <details>
@@ -82,9 +84,12 @@ https://huggingface.co/datasets/cwestnedge/TriggerIR
 | substance\_abuse |      0.267 |      0.123 |  0.143 |       0.25 |       0.05 |   0.10 |
 | violence         |      0.500 |      0.356 |  0.144 |       0.50 |       0.40 |   0.10 |
 
+
+### Visual
+![Neutral-query visual](assets/neutral_query_viz.png)
 </details>
 
----
+<!-- ---
 
 ### Visual comparison
 
@@ -92,7 +97,7 @@ https://huggingface.co/datasets/cwestnedge/TriggerIR
   <img src="assets/explicit_query_viz.png" alt="Explicit-query visual" width="45%" />
   &nbsp;&nbsp;
   <img src="assets/neutral_query_viz.png"  alt="Neutral-query visual"  width="45%" />
-</p>
+</p> -->
 
 ---
 
