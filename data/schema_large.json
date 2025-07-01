@@ -1,0 +1,265 @@
+{
+  "concepts": {
+    "sexual_content": {
+      "genres": [
+        "Romantic comedy",
+        "Historical period drama",
+        "Road-trip coming-of-age"
+      ],
+      "keywords_positive": [
+        "sexual",
+        "sex",
+        "erotic",
+        "porn",
+        "pornography",
+        "nudity",
+        "full frontal nudity",
+        "orgasm",
+        "intercourse",
+        "intimate scene",
+        "sensual scene",
+        "explicit",
+        "love scene",
+        "steamy",
+        "adult content",
+        "passion",
+        "seductive",
+        "bedroom",
+        "voyeur",
+        "voyeuristic",
+        "one-night stand",
+        "casual sex",
+        "graphic sex scene",
+        "make-out session",
+        "bedroom romp"
+      ],
+      "neutral_synonyms": ["intimate", "sensual", "affectionate"],
+      "regex": "\\b(sexual|sex|erotic|porn(?:ography)?|nudity|full[ -]?frontal[ -]?nudity|orgasm|intercourse|intimate[ -]?scene|sensual[ -]?scene|explicit|love[ -]?scene|steamy|adult[ -]?content|passion|seductive|bedroom|voyeur(?:istic)?|one[ -]?night[ -]?stand|casual[ -]?sex|graphic[ -]?sex[ -]?scene|make[ -]?out[ -]?session|bedroom[ -]?romp)\\b"
+    },
+
+    "sexual_assault": {
+      "genres": [
+        "Small-town mystery",
+        "Legal thriller",
+        "True-crime podcast adaptation"
+      ],
+      "keywords_positive": [
+        "rape",
+        "statutory rape",
+        "date-rape",
+        "sexual assault",
+        "sexual violence",
+        "sexual misconduct",
+        "sex crime",
+        "sexual exploitation",
+        "non-consensual",
+        "forced intercourse",
+        "forced sexual act",
+        "molestation",
+        "groping",
+        "fondling",
+        "sexual coercion",
+        "victim of sexual assault",
+        "sexual predator",
+        "serial rapist",
+        "child abuse",
+        "incest",
+        "harassment"
+      ],
+      "neutral_synonyms": ["attack", "trauma"],
+      "regex": "\\b(rape|statutory[ -]?rape|date[ -]?rape|sexual[ -]?(?:assault|violence|misconduct|exploitation)|sex[ -]?crime|victim[ -]?of[ -]?sexual[ -]?assault|sexual[ -]?predator|serial[ -]?rapist|molestation|groping|fondling|incest|child[ -]?abuse|sexual[ -]?coercion|non[ -]?consensual|forced[ -]?(?:intercourse|sexual[ -]?act)|harassment)\\b"
+    },
+
+    "violence": {
+      "genres": [
+        "Suspense thriller",
+        "Frontier adventure",
+        "Political-intrigue drama"
+      ],
+      "keywords_positive": [
+        "murder",
+        "assault",
+        "kill",
+        "killing",
+        "shot",
+        "shooting",
+        "drive-by shooting",
+        "gun violence",
+        "stab",
+        "stabbing",
+        "knife fight",
+        "torture",
+        "gunfight",
+        "beating",
+        "brawl",
+        "violent clash",
+        "violent confrontation",
+        "hand-to-hand combat",
+        "physical altercation",
+        "bloodshed",
+        "massacre",
+        "slaughter",
+        "execution",
+        "strangulation",
+        "bludgeon",
+        "arson",
+        "explosion",
+        "grenade"
+      ],
+      "neutral_synonyms": ["attack", "conflict", "fight"],
+      "regex": "\\b(murder|assault|kill(?:ing)?|shot|shoot(?:ing)?|drive[ -]?by[ -]?shooting|gun[ -]?violence|stab(?:bing)?|knife[ -]?fight|torture|gunfight|beating|brawl|violent[ -]?(?:clash|confrontation)|hand[ -]?to[ -]?hand[ -]?combat|physical[ -]?altercation|bloodshed|massacre|slaughter|execution|strangulation|bludgeon|arson|explosion|grenade)\\b"
+    },
+
+    "gore": {
+      "genres": [
+        "Survival horror",
+        "Post-apocalyptic action",
+        "Dark fantasy quest"
+      ],
+      "keywords_positive": [
+        "blood-soaked",
+        "bloodbath",
+        "pools of blood",
+        "gore",
+        "gory",
+        "splatter",
+        "splattered brains",
+        "grisly scene",
+        "graphic dismemberment",
+        "dismember",
+        "dismemberment",
+        "decapitate",
+        "decapitation",
+        "maim",
+        "maiming",
+        "severed limb",
+        "viscera",
+        "viscera-spattered",
+        "entrails",
+        "guts",
+        "mangled corpse",
+        "brain matter"
+      ],
+      "neutral_synonyms": ["injury", "wound"],
+      "regex": "\\b(blood[ -]?soaked|bloodbath|pools[ -]?of[ -]?blood|gore|gory|splatter|splattered[ -]?brains|grisly[ -]?scene|graphic[ -]?dismemberment|dismember(?:ment)?|decapitat(?:e|ion)|maim(?:ing)?|severed[ -]?limb|viscera(?:[ -]?spattered)?|entrails|guts|mangled[ -]?corpse|brain[ -]?matter)\\b"
+    },
+
+    "animal_cruelty": {
+      "genres": [
+        "Wilderness adventure",
+        "Rural family saga",
+        "Eco-thriller"
+      ],
+      "keywords_positive": [
+        "dog fight",
+        "dogfight",
+        "dog fighting ring",
+        "dog baiting",
+        "animal abuse",
+        "animal neglect",
+        "animal cruelty",
+        "animal torture",
+        "animal starvation",
+        "cockfight",
+        "bear baiting",
+        "bullfighting",
+        "illegal wildlife trade",
+        "wildlife trafficking",
+        "animal testing",
+        "fur trapping",
+        "seal clubbing",
+        "poaching",
+        "factory farming",
+        "animal beating"
+      ],
+      "neutral_synonyms": ["animal danger", "wildlife threat"],
+      "regex": "\\b(dog(?: |-)?fight(?:ing[ -]?ring)?|dog[ -]?baiting|animal[ -]?(?:abuse|neglect|cruelty|torture|starvation|testing|beating)|cockfight|bear[ -]?baiting|bullfighting|illegal[ -]?wildlife[ -]?trade|wildlife[ -]?trafficking|fur[ -]?trapping|seal[ -]?clubbing|poaching|factory[ -]?farming)\\b"
+    },
+
+    "self_harm": {
+      "genres": [
+        "YA coming-of-age drama",
+        "Literary family melodrama",
+        "Psychological indie film"
+      ],
+      "keywords_positive": [
+        "suicide",
+        "attempted suicide",
+        "suicidal ideation",
+        "taking their own life",
+        "ending their life",
+        "self-harm",
+        "self-injury",
+        "self-inflicted wounds",
+        "deliberate self-harm",
+        "self-poisoning",
+        "kill myself",
+        "hang myself",
+        "shoot myself",
+        "jump off",
+        "wrist slitting",
+        "overdose",
+        "self-inflicted",
+        "cutting",
+        "cry for help",
+        "self-destructive behavior"
+      ],
+      "neutral_synonyms": ["self-destructive", "personal crisis"],
+      "regex": "\\b(suicide|attempted[ -]?suicide|suicidal[ -]?ideation|taking[ -]their[ -]own[ -]life|ending[ -]their[ -]life|self[ -]?(?:harm|injur(?:y|ies)|inflicted[ -]?wounds|poison(?:ing)?)|deliberate[ -]?self[ -]?harm|kill[ -]?myself|hang[ -]?myself|shoot[ -]?myself|jump[ -]?off|wrist[ -]?slitting|overdose|self[ -]?inflicted|cutting|cry[ -]?for[ -]?help|self[ -]?destructive[ -]?behavior)\\b"
+    },
+
+    "substance_abuse": {
+      "genres": [
+        "Music-scene drama",
+        "Noir detective story",
+        "Blue-collar small-town drama"
+      ],
+      "keywords_positive": [
+        "cocaine",
+        "crack",
+        "heroin",
+        "fentanyl",
+        "opioid",
+        "opioids",
+        "meth",
+        "methamphetamine",
+        "amphetamine",
+        "lsd",
+        "ecstasy",
+        "mdma",
+        "psychedelics",
+        "marijuana",
+        "cannabis",
+        "benzo",
+        "benzodiazepine",
+        "barbiturate",
+        "narcotic",
+        "hard drugs",
+        "drug addiction",
+        "substance dependency",
+        "needle use",
+        "drug overdose",
+        "alcoholism",
+        "alcohol abuse",
+        "alcoholic",
+        "binge drinking",
+        "alcohol binge",
+        "drunk",
+        "drunken",
+        "intoxicated",
+        "stoned",
+        "buzzed",
+        "drug-fueled partying"
+      ],
+      "neutral_synonyms": ["substance use", "addiction"],
+      "regex": "\\b(cocaine|crack|heroin|fentanyl|opioids?|meth(?:amphetamine)?|amphetamine|lsd|ecstasy|mdma|psychedelic(?:s)?|marijuana|cannabis|benzos?|benzodiazepine|barbitur(?:ate|ates)|narcotic(?:s)?|hard[ -]?drugs|drug[ -]?addiction|substance[ -]?dependency|needle[ -]?use|drug[ -]?overdose|alcohol(?:ism|ic)?|alcohol[ -]?abuse|binge[ -]?drinking|alcohol[ -]?binge|drunk(?:en)?|intoxicated|stoned|buzzed|drug[ -]?fueled[ -]?party(?:ing)?)\\b"
+    }
+  },
+
+  "generation_settings": {
+    "synopsis_length": 60,
+    "pairs_per_query": 3,
+    "min_triggers": 1,
+    "max_triggers": 3
+  }
+}
