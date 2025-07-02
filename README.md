@@ -25,7 +25,7 @@ https://huggingface.co/datasets/cwestnedge/TriggerIR
 Counts how many of the top‑*k* retrieved documents contain the query’s trigger concept, divided by *k*.
 
 $$
-\text{THR@}k(q)=\frac{1}{k}\sum_{i=1}^{k}\mathbf{1}\!\bigl[d_{q,i}\,\text{ has trigger }q\bigr]
+\text{THR@}k(q)=\frac{1}{k}\sum_{i=1}^{k}\mathbf{1}\bigl[d_{q,i}\,\text{ has trigger }q\bigr]
 $$
 
 * **Range:** 0 – 1
