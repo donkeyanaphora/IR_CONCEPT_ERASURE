@@ -6,7 +6,7 @@
 
 ---
 
-## 📦 Dataset
+## Dataset
 
 **TriggerIR on 🤗 Hugging Face**
 
@@ -18,7 +18,7 @@ https://huggingface.co/datasets/cwestnedge/TriggerIR
 
 ---
 
-## 📐 Metric
+## Metric
 
 ### Trigger Hit Rate @ k (THR\@k)
 
@@ -34,7 +34,7 @@ $$
 
 ---
 
-## 📊 Results
+## Results
 
 <details open>
 <summary><strong>Explicit‑query</strong></summary>
@@ -104,7 +104,7 @@ $$
 
 ---
 
-## ⚙️ Reproduce
+## Reproduce
 
 ```bash
 git clone https://github.com/your-handle/IR_Concept_Erasure.git
@@ -116,7 +116,7 @@ jupyter lab IRConceptErasure.ipynb   # or run as a script
 
 ---
 
-## 🗒️ TODO
+## TODO
 
 * [ ] Publish dataset‑creation script
 * [ ] Automate metric & figure generation
